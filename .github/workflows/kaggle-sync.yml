@@ -1,0 +1,45 @@
+name: Kaggle sync
+
+on:
+  schedule:
+    - cron: "17 10 * * *"   # daily, 03:17 Los Angeles (PDT)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kaggle-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install --quiet "kaggle>=2.0"
+
+      - name: Pull from Kaggle
+        env:
+          KAGGLE_ACCOUNT_1: ${{ secrets.KAGGLE_ACCOUNT_1 }}
+          KAGGLE_ACCOUNT_2: ${{ secrets.KAGGLE_ACCOUNT_2 }}
+          KAGGLE_ACCOUNT_3: ${{ secrets.KAGGLE_ACCOUNT_3 }}
+        run: python scripts/kaggle_sync.py
+
+      - name: Commit changes
+        if: always()
+        run: |
+          git config user.name  "kaggle-sync[bot]"
+          git config user.email "kaggle-sync@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Kaggle sync $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
