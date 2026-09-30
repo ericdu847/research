@@ -1,0 +1,21 @@
+{
+  "id": "eric847/cv4c-k-gpr151-drug-discovery-pipeline-kaggle",
+  "id_no": 124799670,
+  "title": "cV4c-k GPR151 Drug Discovery Pipeline (Kaggle)",
+  "code_file": "cv4c-k-gpr151-drug-discovery-pipeline-kaggle.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [
+    "eric847/gpr151-checkpoint"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:57e612b484cf3df5026ee4dcc3cb176974b22b2bc0937fb1e16132a8be4cb13c",
+  "machine_shape": "NvidiaTeslaT4"
+}
