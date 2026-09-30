@@ -5,20 +5,118 @@
   "fallback": "other",
   "overrides": {
     "ericdu847/gum3-sdf": "gpr151",
-    "ericdu847/gum4-sdf": "gpr151"
+    "ericdu847/gum4-sdf": "gpr151",
+    "ericdu847/p13-part-a": "project13",
+    "ericdu847/p13-part-a2": "project13",
+    "ericdu847/p13-part-2-recheck": "project13"
   },
   "projects": {
     "gpr151": {
-      "name_patterns": ["gpr151", "gpcr", "psoralen", "q8tdv0", "\\bgum[34]\\b", "docking"],
-      "keywords": ["gpr151", "q8tdv0", "psoralen", "gum3", "gum4", "openmm", "pdbfixer", "rdkit", "prolif", "mdanalysis", "plumed", "autodock", "vina", "smina", "gnina", "meeko", "openbabel", "pdbqt", "pharmacophore", "ligand", "binding pocket", "force field", "amber"]
+      "name_patterns": [
+        "gpr151",
+        "gpcr",
+        "psoralen",
+        "q8tdv0",
+        "\\bgum[34]\\b",
+        "docking"
+      ],
+      "keywords": [
+        "gpr151",
+        "q8tdv0",
+        "psoralen",
+        "gum3",
+        "gum4",
+        "openmm",
+        "pdbfixer",
+        "rdkit",
+        "prolif",
+        "mdanalysis",
+        "plumed",
+        "autodock",
+        "vina",
+        "smina",
+        "gnina",
+        "meeko",
+        "openbabel",
+        "pdbqt",
+        "pharmacophore",
+        "ligand",
+        "binding pocket",
+        "force field",
+        "amber"
+      ]
     },
     "vcc": {
-      "name_patterns": ["\\bvcc\\b", "virtual[-_ ]?cell", "chorus", "perturb", "crispr"],
-      "keywords": ["scanpy", "anndata", ".h5ad", "perturbation", "crispri", "knockdown", "non-targeting", "target_gene", "replogle", "cell-eval", "cell_eval", "virtual cell", "vcc", "chorus", "pseudobulk", "differential expression", "fluctuation-dissipation", "gaudi"]
+      "name_patterns": [
+        "\\bvcc\\b",
+        "virtual[-_ ]?cell",
+        "chorus",
+        "perturb",
+        "crispr"
+      ],
+      "keywords": [
+        "scanpy",
+        "anndata",
+        ".h5ad",
+        "perturbation",
+        "crispri",
+        "knockdown",
+        "non-targeting",
+        "target_gene",
+        "replogle",
+        "cell-eval",
+        "cell_eval",
+        "virtual cell",
+        "vcc",
+        "chorus",
+        "pseudobulk",
+        "differential expression",
+        "fluctuation-dissipation",
+        "gaudi"
+      ]
     },
     "nano": {
-      "name_patterns": ["\\bnano\\b", "e[-_]?prop", "chatbot", "neuromoe", "\\bbrain[-_ ]"],
-      "keywords": ["e-prop", "eprop", "eligibility trace", "wernicke", "broca", "hippocamp", "basal ganglia", "striatum", "dialogue act", "dialog act", "perplexity", "switchboard", "chatbot", "neuromoe", "utterance", "object file", "cognitive map", "5-gram", "delta rule", "import modal", "modal.app"]
+      "name_patterns": [
+        "\\bnano\\b",
+        "e[-_]?prop",
+        "chatbot",
+        "neuromoe",
+        "\\bbrain[-_ ]"
+      ],
+      "keywords": [
+        "e-prop",
+        "eprop",
+        "eligibility trace",
+        "wernicke",
+        "broca",
+        "hippocamp",
+        "basal ganglia",
+        "striatum",
+        "dialogue act",
+        "dialog act",
+        "perplexity",
+        "switchboard",
+        "chatbot",
+        "neuromoe",
+        "utterance",
+        "object file",
+        "cognitive map",
+        "5-gram",
+        "delta rule",
+        "import modal",
+        "modal.app"
+      ]
+    },
+    "project13": {
+      "name_patterns": [
+        "\\bp13\\b",
+        "project[-_ ]?13",
+        "\\bpath[-_ ]?a"
+      ],
+      "keywords": [
+        "project13",
+        "project 13"
+      ]
     }
   }
 }
