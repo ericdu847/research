@@ -18,7 +18,7 @@ Three independent research projects.
 
 **Key references**
 - Wang et al. 2026: cryo-EM structure that reveals an autoinhibitory N-terminal lid.
-- Yoshida et al. 2026: GUM3/GUM4 psoralen agonists. The psoralen scaffold is the pharmacophore anchor.
+- Yoshida et al. 2026: first reported small-molecule agonists; their scaffold serves as the pharmacophore anchor.
 
 **Pipeline**
 1. Structure preparation (PDBFixer; AMBER force field, with histidine protonation states resolved)
@@ -31,7 +31,7 @@ Three independent research projects.
 - Furan/benzofuranone core: π-stacks with W6.52
 - NH linker: hydrogen bond to D3.32
 - A halogen-bonding site
-- Dopamine is the closest endogenous structural analog
+- An endogenous structural analog has been identified
 
 ---
 
