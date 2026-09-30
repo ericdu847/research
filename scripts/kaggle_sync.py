@@ -103,6 +103,9 @@ def sync_account(name: str, secret: str, manifest: list[dict]) -> int:
             print(f"[{name}] notebook columns: {list(kernels[0])}; first ref: {kernels[0]['ref']!r}")
 
         for k in kernels:
+            if not k["ref"].strip():
+                print(f"[{name}] skipped notebook with no ref (unsaved?): {k.get('title', '')!r}")
+                continue
             ref, title = full_ref(k, name), k.get("title", "")
             slug = ref.split("/", 1)[1]
             dest = ROOT / route(ref, title) / "notebooks" / slug
