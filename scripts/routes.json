@@ -1,0 +1,24 @@
+{
+  "_comment": "Routing for scripts/kaggle_sync.py. 'overrides' pins a Kaggle ref (owner/slug) to a folder and always wins. Otherwise each project scores name_patterns (regex on slug + title, weight 3) plus distinct content keywords found in the notebook source (weight 1). The top project wins if it scores >= min_score and beats the runner-up by >= min_margin; anything else goes to 'fallback'. Datasets follow the notebooks that use them.",
+  "min_score": 3,
+  "min_margin": 2,
+  "fallback": "other",
+  "overrides": {
+    "ericdu847/gum3-sdf": "gpr151",
+    "ericdu847/gum4-sdf": "gpr151"
+  },
+  "projects": {
+    "gpr151": {
+      "name_patterns": ["gpr151", "gpcr", "psoralen", "q8tdv0", "\\bgum[34]\\b", "docking"],
+      "keywords": ["gpr151", "q8tdv0", "psoralen", "gum3", "gum4", "openmm", "pdbfixer", "rdkit", "prolif", "mdanalysis", "plumed", "autodock", "vina", "smina", "gnina", "meeko", "openbabel", "pdbqt", "pharmacophore", "ligand", "binding pocket", "force field", "amber"]
+    },
+    "vcc": {
+      "name_patterns": ["\\bvcc\\b", "virtual[-_ ]?cell", "chorus", "perturb", "crispr"],
+      "keywords": ["scanpy", "anndata", ".h5ad", "perturbation", "crispri", "knockdown", "non-targeting", "target_gene", "replogle", "cell-eval", "cell_eval", "virtual cell", "vcc", "chorus", "pseudobulk", "differential expression", "fluctuation-dissipation", "gaudi"]
+    },
+    "nano": {
+      "name_patterns": ["\\bnano\\b", "e[-_]?prop", "chatbot", "neuromoe", "\\bbrain[-_ ]"],
+      "keywords": ["e-prop", "eprop", "eligibility trace", "wernicke", "broca", "hippocamp", "basal ganglia", "striatum", "dialogue act", "dialog act", "perplexity", "switchboard", "chatbot", "neuromoe", "utterance", "object file", "cognitive map", "5-gram", "delta rule", "import modal", "modal.app"]
+    }
+  }
+}
