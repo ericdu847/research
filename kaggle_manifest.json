@@ -389,6 +389,22 @@
   },
   {
     "type": "dataset",
+    "ref": "ericdu847/kaggle-interventional-causal-vs-coexpression",
+    "title": "kaggle_interventional_causal_vs_coexpression",
+    "account": "ericdu847",
+    "path": "other/datasets/kaggle-interventional-causal-vs-coexpression",
+    "url": "https://www.kaggle.com/datasets/ericdu847/kaggle-interventional-causal-vs-coexpression"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/kaggle-interventional-causal-vs-coexpressionv2",
+    "title": "kaggle_interventional_causal_vs_coexpressionv2",
+    "account": "ericdu847",
+    "path": "other/datasets/kaggle-interventional-causal-vs-coexpressionv2",
+    "url": "https://www.kaggle.com/datasets/ericdu847/kaggle-interventional-causal-vs-coexpressionv2"
+  },
+  {
+    "type": "dataset",
     "ref": "ericdu847/kaggle-phase2-compositional-model-v1",
     "title": "kaggle_phase2_compositional_model_v1",
     "account": "ericdu847",
@@ -397,11 +413,11 @@
   },
   {
     "type": "dataset",
-    "ref": "ericdu847/metadata",
-    "title": "metadata",
+    "ref": "ericdu847/kaggle-t3-gnn-oracle",
+    "title": "kaggle_T3_gnn_oracle",
     "account": "ericdu847",
-    "path": "other/datasets/metadata",
-    "url": "https://www.kaggle.com/datasets/ericdu847/metadata"
+    "path": "other/datasets/kaggle-t3-gnn-oracle",
+    "url": "https://www.kaggle.com/datasets/ericdu847/kaggle-t3-gnn-oracle"
   },
   {
     "type": "dataset",
@@ -418,38 +434,6 @@
     "account": "ericdu4831",
     "path": "other/datasets/microns-multiverse-data",
     "url": "https://www.kaggle.com/datasets/ericdu4831/microns-multiverse-data"
-  },
-  {
-    "type": "dataset",
-    "ref": "ericdu847/p13-part2-recheck",
-    "title": "P13 Part2 Recheck",
-    "account": "ericdu847",
-    "path": "other/datasets/p13-part2-recheck",
-    "url": "https://www.kaggle.com/datasets/ericdu847/p13-part2-recheck"
-  },
-  {
-    "type": "dataset",
-    "ref": "ericdu847/patha-part2-recheck-sample-csv",
-    "title": "pathA_part2_recheck_sample.csv",
-    "account": "ericdu847",
-    "path": "other/datasets/patha-part2-recheck-sample-csv",
-    "url": "https://www.kaggle.com/datasets/ericdu847/patha-part2-recheck-sample-csv"
-  },
-  {
-    "type": "dataset",
-    "ref": "ericdu847/pathapart2",
-    "title": "pathApart2",
-    "account": "ericdu847",
-    "path": "other/datasets/pathapart2",
-    "url": "https://www.kaggle.com/datasets/ericdu847/pathapart2"
-  },
-  {
-    "type": "dataset",
-    "ref": "ericdu847/project13-cross-model",
-    "title": "project13-cross-model",
-    "account": "ericdu847",
-    "path": "other/datasets/project13-cross-model",
-    "url": "https://www.kaggle.com/datasets/ericdu847/project13-cross-model"
   },
   {
     "type": "notebook",
@@ -691,27 +675,6 @@
   },
   {
     "type": "notebook",
-    "ref": "ericdu847/p13-part-2-recheck",
-    "title": "P13 Part 2 Recheck",
-    "account": "ericdu847",
-    "path": "other/notebooks/p13-part-2-recheck"
-  },
-  {
-    "type": "notebook",
-    "ref": "ericdu847/p13-part-a",
-    "title": "P13 Part A",
-    "account": "ericdu847",
-    "path": "other/notebooks/p13-part-a"
-  },
-  {
-    "type": "notebook",
-    "ref": "ericdu847/p13-part-a2",
-    "title": "P13 Part A2",
-    "account": "ericdu847",
-    "path": "other/notebooks/p13-part-a2"
-  },
-  {
-    "type": "notebook",
     "ref": "ericdu847/particlelifevcc",
     "title": "ParticleLifeVCC",
     "account": "ericdu847",
@@ -726,27 +689,64 @@
   },
   {
     "type": "dataset",
-    "ref": "ericdu847/kaggle-interventional-causal-vs-coexpression",
-    "title": "kaggle_interventional_causal_vs_coexpression",
+    "ref": "ericdu847/metadata",
+    "title": "metadata",
     "account": "ericdu847",
-    "path": "unsorted/ericdu847/datasets/kaggle-interventional-causal-vs-coexpression",
-    "url": "https://www.kaggle.com/datasets/ericdu847/kaggle-interventional-causal-vs-coexpression"
+    "path": "project13/datasets/metadata",
+    "url": "https://www.kaggle.com/datasets/ericdu847/metadata"
   },
   {
     "type": "dataset",
-    "ref": "ericdu847/kaggle-interventional-causal-vs-coexpressionv2",
-    "title": "kaggle_interventional_causal_vs_coexpressionv2",
+    "ref": "ericdu847/p13-part2-recheck",
+    "title": "P13 Part2 Recheck",
     "account": "ericdu847",
-    "path": "unsorted/ericdu847/datasets/kaggle-interventional-causal-vs-coexpressionv2",
-    "url": "https://www.kaggle.com/datasets/ericdu847/kaggle-interventional-causal-vs-coexpressionv2"
+    "path": "project13/datasets/p13-part2-recheck",
+    "url": "https://www.kaggle.com/datasets/ericdu847/p13-part2-recheck"
   },
   {
     "type": "dataset",
-    "ref": "ericdu847/kaggle-t3-gnn-oracle",
-    "title": "kaggle_T3_gnn_oracle",
+    "ref": "ericdu847/patha-part2-recheck-sample-csv",
+    "title": "pathA_part2_recheck_sample.csv",
     "account": "ericdu847",
-    "path": "unsorted/ericdu847/datasets/kaggle-t3-gnn-oracle",
-    "url": "https://www.kaggle.com/datasets/ericdu847/kaggle-t3-gnn-oracle"
+    "path": "project13/datasets/patha-part2-recheck-sample-csv",
+    "url": "https://www.kaggle.com/datasets/ericdu847/patha-part2-recheck-sample-csv"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/pathapart2",
+    "title": "pathApart2",
+    "account": "ericdu847",
+    "path": "project13/datasets/pathapart2",
+    "url": "https://www.kaggle.com/datasets/ericdu847/pathapart2"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/project13-cross-model",
+    "title": "project13-cross-model",
+    "account": "ericdu847",
+    "path": "project13/datasets/project13-cross-model",
+    "url": "https://www.kaggle.com/datasets/ericdu847/project13-cross-model"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/p13-part-2-recheck",
+    "title": "P13 Part 2 Recheck",
+    "account": "ericdu847",
+    "path": "project13/notebooks/p13-part-2-recheck"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/p13-part-a",
+    "title": "P13 Part A",
+    "account": "ericdu847",
+    "path": "project13/notebooks/p13-part-a"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/p13-part-a2",
+    "title": "P13 Part A2",
+    "account": "ericdu847",
+    "path": "project13/notebooks/p13-part-a2"
   },
   {
     "type": "dataset",
