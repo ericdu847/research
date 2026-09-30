@@ -1,0 +1,23 @@
+{
+  "id": "ericdu847/notebookf15860fd26",
+  "id_no": 127737893,
+  "title": "notebookf15860fd26",
+  "code_file": "notebookf15860fd26.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "ericdu847/kaggle-t3-gnn-oracle"
+  ],
+  "kernel_sources": [
+    "packagemanager/pm-127737893-at-07-18-2026-06-04-13"
+  ],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+  "machine_shape": "NvidiaTeslaT4"
+}

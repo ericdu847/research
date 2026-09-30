@@ -1,0 +1,19 @@
+{
+  "id": "ericdu847/notebook12361c64ca",
+  "id_no": 128403170,
+  "title": "notebook12361c64ca",
+  "code_file": "notebook12361c64ca.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "None"
+}

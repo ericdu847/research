@@ -1,0 +1,22 @@
+{
+  "id": "ericdu847/ligpr151-xor-v2-8",
+  "id_no": 125618926,
+  "title": "liGPR151-XOR v2(8)",
+  "code_file": "ligpr151-xor-v2-8.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "ericdu847/gum3-sdf",
+    "ericdu847/gum4-sdf"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+  "machine_shape": "NvidiaTeslaT4"
+}

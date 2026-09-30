@@ -1,0 +1,19 @@
+{
+  "id": "ericdu847/gpr151-ddp-kv1",
+  "id_no": 124534514,
+  "title": "GPR151 DDP kV1",
+  "code_file": "gpr151-ddp-kv1.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "NvidiaTeslaT4"
+}

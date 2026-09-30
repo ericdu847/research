@@ -1,0 +1,19 @@
+{
+  "id": "ericdu847/notebooka04b7eaf8c",
+  "id_no": 124103177,
+  "title": "notebooka04b7eaf8c",
+  "code_file": "notebooka04b7eaf8c.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "None"
+}

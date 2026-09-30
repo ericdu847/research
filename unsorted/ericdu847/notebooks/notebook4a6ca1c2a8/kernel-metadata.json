@@ -1,0 +1,23 @@
+{
+  "id": "ericdu847/notebook4a6ca1c2a8",
+  "id_no": 128152068,
+  "title": "notebook4a6ca1c2a8",
+  "code_file": "notebook4a6ca1c2a8.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "ericdu847/v5g0-vcc-00-probe"
+  ],
+  "kernel_sources": [
+    "packagemanager/pm-128152068-at-07-21-2026-21-38-24"
+  ],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:dafd4ce5668bbf1ad422e4c109e0f18c9623c3a7c7f48b0235f13142755c40b9",
+  "machine_shape": "None"
+}

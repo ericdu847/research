@@ -1,0 +1,23 @@
+{
+  "id": "ericdu847/notebook7f6a28583e",
+  "id_no": 128066490,
+  "title": "notebook7f6a28583e",
+  "code_file": "notebook7f6a28583e.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "ericdu847/v5g0-vcc-00-probe"
+  ],
+  "kernel_sources": [
+    "packagemanager/pm-128066490-at-07-21-2026-01-52-34"
+  ],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+  "machine_shape": "NvidiaTeslaT4"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ericdu847/p13-part-2-recheck",
+  "id_no": 126978189,
+  "title": "P13 Part 2 Recheck",
+  "code_file": "p13-part-2-recheck.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "ericdu847/metadata",
+    "ericdu847/p13-part2-recheck"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:dafd4ce5668bbf1ad422e4c109e0f18c9623c3a7c7f48b0235f13142755c40b9",
+  "machine_shape": "None"
+}

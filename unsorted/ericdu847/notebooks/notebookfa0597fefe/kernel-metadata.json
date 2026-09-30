@@ -1,0 +1,19 @@
+{
+  "id": "ericdu847/notebookfa0597fefe",
+  "id_no": 127740026,
+  "title": "notebookfa0597fefe",
+  "code_file": "notebookfa0597fefe.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "None"
+}

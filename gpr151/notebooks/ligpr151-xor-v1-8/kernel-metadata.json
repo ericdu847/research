@@ -1,0 +1,22 @@
+{
+  "id": "ericdu847/ligpr151-xor-v1-8",
+  "id_no": 125613836,
+  "title": "liGPR151-XOR v1(8)",
+  "code_file": "ligpr151-xor-v1-8.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "ericdu847/gum3-sdf",
+    "ericdu847/gum4-sdf"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:dafd4ce5668bbf1ad422e4c109e0f18c9623c3a7c7f48b0235f13142755c40b9",
+  "machine_shape": "None"
+}

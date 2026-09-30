@@ -1,0 +1,995 @@
+[
+  {
+    "type": "dataset",
+    "ref": "eric847/gpr151-checkpoint",
+    "title": "gpr151-checkpoint",
+    "account": "eric847",
+    "path": "gpr151/datasets/gpr151-checkpoint",
+    "url": "https://www.kaggle.com/datasets/eric847/gpr151-checkpoint"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/gpr151-implicit-md-partial-out",
+    "title": "gpr151-implicit-md-partial-out",
+    "account": "ericdu847",
+    "path": "gpr151/datasets/gpr151-implicit-md-partial-out",
+    "url": "https://www.kaggle.com/datasets/ericdu847/gpr151-implicit-md-partial-out"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/gpr151-implicit-md-systems",
+    "title": "gpr151-implicit-md-systems",
+    "account": "ericdu847",
+    "path": "gpr151/datasets/gpr151-implicit-md-systems",
+    "url": "https://www.kaggle.com/datasets/ericdu847/gpr151-implicit-md-systems"
+  },
+  {
+    "type": "dataset",
+    "ref": "eric847/gpr151-pipeline-results-zip",
+    "title": "GPR151_pipeline_results.zip",
+    "account": "eric847",
+    "path": "gpr151/datasets/gpr151-pipeline-results-zip",
+    "url": "https://www.kaggle.com/datasets/eric847/gpr151-pipeline-results-zip"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/ligpr151-xor-dv2u8",
+    "title": "liGPR151-XOR dv2u(8)",
+    "account": "ericdu847",
+    "path": "gpr151/datasets/ligpr151-xor-dv2u8",
+    "url": "https://www.kaggle.com/datasets/ericdu847/ligpr151-xor-dv2u8"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/cv1-gpr151-drug-discovery-pipeline-kaggle",
+    "title": "cV1 GPR151 Drug Discovery Pipeline (Kaggle)",
+    "account": "ericdu847",
+    "path": "gpr151/notebooks/cv1-gpr151-drug-discovery-pipeline-kaggle"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/cv2a-gpr151-drug-discovery-pipeline-kaggle",
+    "title": "cV2a GPR151 Drug Discovery Pipeline (Kaggle)",
+    "account": "ericdu847",
+    "path": "gpr151/notebooks/cv2a-gpr151-drug-discovery-pipeline-kaggle"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/cv3-gpr151-drug-discovery-pipeline-kaggle",
+    "title": "cV3 GPR151 Drug Discovery Pipeline (Kaggle)",
+    "account": "ericdu847",
+    "path": "gpr151/notebooks/cv3-gpr151-drug-discovery-pipeline-kaggle"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/cv4bk-gpr151-drug-discovery-pipeline-kaggle",
+    "title": "cV4bk GPR151 Drug Discovery Pipeline (Kaggle)",
+    "account": "ericdu847",
+    "path": "gpr151/notebooks/cv4bk-gpr151-drug-discovery-pipeline-kaggle"
+  },
+  {
+    "type": "notebook",
+    "ref": "eric847/cv4c-k-gpr151-drug-discovery-pipeline-kaggle",
+    "title": "cV4c-k GPR151 Drug Discovery Pipeline (Kaggle)",
+    "account": "eric847",
+    "path": "gpr151/notebooks/cv4c-k-gpr151-drug-discovery-pipeline-kaggle"
+  },
+  {
+    "type": "notebook",
+    "ref": "eric847/fork-of-gpr151-xor-v6",
+    "title": "Fork of GPR151-XOR v6",
+    "account": "eric847",
+    "path": "gpr151/notebooks/fork-of-gpr151-xor-v6"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/gpr151-ddp-kapv1",
+    "title": "GPR151 DDP kapV1",
+    "account": "ericdu847",
+    "path": "gpr151/notebooks/gpr151-ddp-kapv1"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/gpr151-ddp-kv1",
+    "title": "GPR151 DDP kV1",
+    "account": "ericdu847",
+    "path": "gpr151/notebooks/gpr151-ddp-kv1"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/gpr151-drug-discovery-pipeline-kaggle",
+    "title": "GPR151 Drug Discovery Pipeline (Kaggle)",
+    "account": "ericdu847",
+    "path": "gpr151/notebooks/gpr151-drug-discovery-pipeline-kaggle"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/gpr151-fixed",
+    "title": "GPR151 Fixed",
+    "account": "ericdu847",
+    "path": "gpr151/notebooks/gpr151-fixed"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/gpr151-fixed-v2",
+    "title": "GPR151 Fixed V2",
+    "account": "ericdu847",
+    "path": "gpr151/notebooks/gpr151-fixed-v2"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/gpr151-fixed-v2a",
+    "title": "GPR151 Fixed V2a",
+    "account": "ericdu847",
+    "path": "gpr151/notebooks/gpr151-fixed-v2a"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/gpr151-graph-models",
+    "title": "GPR151 Graph Models",
+    "account": "ericdu847",
+    "path": "gpr151/notebooks/gpr151-graph-models"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/gpr151-implicit-md-run",
+    "title": "gpr151-implicit-md-run",
+    "account": "ericdu847",
+    "path": "gpr151/notebooks/gpr151-implicit-md-run"
+  },
+  {
+    "type": "notebook",
+    "ref": "eric847/gpr151-visualization",
+    "title": "GPR151 Visualization",
+    "account": "eric847",
+    "path": "gpr151/notebooks/gpr151-visualization"
+  },
+  {
+    "type": "notebook",
+    "ref": "eric847/gpr151-visualization-ii",
+    "title": "GPR151 Visualization II",
+    "account": "eric847",
+    "path": "gpr151/notebooks/gpr151-visualization-ii"
+  },
+  {
+    "type": "notebook",
+    "ref": "eric847/gpr151-xor",
+    "title": "GPR151-XOR",
+    "account": "eric847",
+    "path": "gpr151/notebooks/gpr151-xor"
+  },
+  {
+    "type": "notebook",
+    "ref": "eric847/gpr151-xor-v2",
+    "title": "GPR151-XOR v2",
+    "account": "eric847",
+    "path": "gpr151/notebooks/gpr151-xor-v2"
+  },
+  {
+    "type": "notebook",
+    "ref": "eric847/gpr151-xor-v3",
+    "title": "GPR151-XOR v3",
+    "account": "eric847",
+    "path": "gpr151/notebooks/gpr151-xor-v3"
+  },
+  {
+    "type": "notebook",
+    "ref": "eric847/gpr151-xor-v4",
+    "title": "GPR151-XOR v4",
+    "account": "eric847",
+    "path": "gpr151/notebooks/gpr151-xor-v4"
+  },
+  {
+    "type": "notebook",
+    "ref": "eric847/gpr151-xor-v5",
+    "title": "GPR151-XOR v5",
+    "account": "eric847",
+    "path": "gpr151/notebooks/gpr151-xor-v5"
+  },
+  {
+    "type": "notebook",
+    "ref": "eric847/gpr151-xor-v6",
+    "title": "GPR151-XOR v6",
+    "account": "eric847",
+    "path": "gpr151/notebooks/gpr151-xor-v6"
+  },
+  {
+    "type": "notebook",
+    "ref": "eric847/gpr151-xor-v7",
+    "title": "GPR151-XOR v7",
+    "account": "eric847",
+    "path": "gpr151/notebooks/gpr151-xor-v7"
+  },
+  {
+    "type": "notebook",
+    "ref": "eric847/gpr151-xor-v8",
+    "title": "GPR151-XOR v8",
+    "account": "eric847",
+    "path": "gpr151/notebooks/gpr151-xor-v8"
+  },
+  {
+    "type": "notebook",
+    "ref": "eric847/gpr151-xor-v8-1u",
+    "title": "GPR151-XOR v8.1u",
+    "account": "eric847",
+    "path": "gpr151/notebooks/gpr151-xor-v8-1u"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/gpr151-xor-v8-1ua",
+    "title": "GPR151-XOR v8.1ua",
+    "account": "ericdu847",
+    "path": "gpr151/notebooks/gpr151-xor-v8-1ua"
+  },
+  {
+    "type": "notebook",
+    "ref": "eric847/gpr151-xor-v8u",
+    "title": "GPR151-XOR v8u",
+    "account": "eric847",
+    "path": "gpr151/notebooks/gpr151-xor-v8u"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/ligpr151-xor-v1-8",
+    "title": "liGPR151-XOR v1(8)",
+    "account": "ericdu847",
+    "path": "gpr151/notebooks/ligpr151-xor-v1-8"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/ligpr151-xor-v2-8",
+    "title": "liGPR151-XOR v2(8)",
+    "account": "ericdu847",
+    "path": "gpr151/notebooks/ligpr151-xor-v2-8"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/ligpr151-xor-v2u-8",
+    "title": "liGPR151-XOR v2u(8)",
+    "account": "ericdu847",
+    "path": "gpr151/notebooks/ligpr151-xor-v2u-8"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/ligpr151-xor-v2ua1-8",
+    "title": "liGPR151-XOR v2ua1(8)",
+    "account": "ericdu847",
+    "path": "gpr151/notebooks/ligpr151-xor-v2ua1-8"
+  },
+  {
+    "type": "notebook",
+    "ref": "eric847/zwp-gpr151-c",
+    "title": "zwp GPR151 C",
+    "account": "eric847",
+    "path": "gpr151/notebooks/zwp-gpr151-c"
+  },
+  {
+    "type": "dataset",
+    "ref": "eric847/onecortex-checkpoint",
+    "title": "onecortex checkpoint",
+    "account": "eric847",
+    "path": "nano/datasets/onecortex-checkpoint",
+    "url": "https://www.kaggle.com/datasets/eric847/onecortex-checkpoint"
+  },
+  {
+    "type": "notebook",
+    "ref": "eric847/brain-cortex-continue",
+    "title": "Brain Cortex Continue",
+    "account": "eric847",
+    "path": "nano/notebooks/brain-cortex-continue"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/brain-deep-cortex",
+    "title": "Brain Deep Cortex",
+    "account": "ericdu847",
+    "path": "nano/notebooks/brain-deep-cortex"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/brain-ipc-cortex",
+    "title": "Brain iPC Cortex",
+    "account": "ericdu847",
+    "path": "nano/notebooks/brain-ipc-cortex"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/brain-one-cortex",
+    "title": "Brain One Cortex",
+    "account": "ericdu847",
+    "path": "nano/notebooks/brain-one-cortex"
+  },
+  {
+    "type": "dataset",
+    "ref": "eric847/microns-functional-window",
+    "title": "MICrONS functional window",
+    "account": "eric847",
+    "path": "unsorted/eric847/datasets/microns-functional-window",
+    "url": "https://www.kaggle.com/datasets/eric847/microns-functional-window"
+  },
+  {
+    "type": "notebook",
+    "ref": "eric847/brain-learned-language",
+    "title": "Brain Learned Language",
+    "account": "eric847",
+    "path": "unsorted/eric847/notebooks/brain-learned-language"
+  },
+  {
+    "type": "notebook",
+    "ref": "eric847/microns-multiverse",
+    "title": "MICrONS Multiverse",
+    "account": "eric847",
+    "path": "unsorted/eric847/notebooks/microns-multiverse"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu4831/microns-multiverse-data",
+    "title": "microns-multiverse-data",
+    "account": "ericdu4831",
+    "path": "unsorted/ericdu4831/datasets/microns-multiverse-data",
+    "url": "https://www.kaggle.com/datasets/ericdu4831/microns-multiverse-data"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu4831/neuromoe-corpus",
+    "title": "NeuroMoE corpus",
+    "account": "ericdu4831",
+    "path": "unsorted/ericdu4831/datasets/neuromoe-corpus",
+    "url": "https://www.kaggle.com/datasets/ericdu4831/neuromoe-corpus"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu4831/neuromoe-conversation",
+    "title": "NeuroMoE Conversation",
+    "account": "ericdu4831",
+    "path": "unsorted/ericdu4831/notebooks/neuromoe-conversation"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu4831/neuromoe-map",
+    "title": "NeuroMoE Map",
+    "account": "ericdu4831",
+    "path": "unsorted/ericdu4831/notebooks/neuromoe-map"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu4831/neuromoe-reading-and-talking",
+    "title": "NeuroMoE Reading and Talking",
+    "account": "ericdu4831",
+    "path": "unsorted/ericdu4831/notebooks/neuromoe-reading-and-talking"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu4831/neuromoe-reading-rerun",
+    "title": "NeuroMoE Reading Rerun",
+    "account": "ericdu4831",
+    "path": "unsorted/ericdu4831/notebooks/neuromoe-reading-rerun"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/dna-promoter-cache",
+    "title": "dna_promoter_cache",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/datasets/dna-promoter-cache",
+    "url": "https://www.kaggle.com/datasets/ericdu847/dna-promoter-cache"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/gum3-sdf",
+    "title": "GUM3.sdf",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/datasets/gum3-sdf",
+    "url": "https://www.kaggle.com/datasets/ericdu847/gum3-sdf"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/gum4-sdf",
+    "title": "GUM4.sdf",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/datasets/gum4-sdf",
+    "url": "https://www.kaggle.com/datasets/ericdu847/gum4-sdf"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/h1-cells-h5ad",
+    "title": "h1_cells.h5ad",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/datasets/h1-cells-h5ad",
+    "url": "https://www.kaggle.com/datasets/ericdu847/h1-cells-h5ad"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/kaggle-interventional-causal-vs-coexpression",
+    "title": "kaggle_interventional_causal_vs_coexpression",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/datasets/kaggle-interventional-causal-vs-coexpression",
+    "url": "https://www.kaggle.com/datasets/ericdu847/kaggle-interventional-causal-vs-coexpression"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/kaggle-interventional-causal-vs-coexpressionv2",
+    "title": "kaggle_interventional_causal_vs_coexpressionv2",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/datasets/kaggle-interventional-causal-vs-coexpressionv2",
+    "url": "https://www.kaggle.com/datasets/ericdu847/kaggle-interventional-causal-vs-coexpressionv2"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/kaggle-phase2-compositional-model-v1",
+    "title": "kaggle_phase2_compositional_model_v1",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/datasets/kaggle-phase2-compositional-model-v1",
+    "url": "https://www.kaggle.com/datasets/ericdu847/kaggle-phase2-compositional-model-v1"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/kaggle-t3-gnn-oracle",
+    "title": "kaggle_T3_gnn_oracle",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/datasets/kaggle-t3-gnn-oracle",
+    "url": "https://www.kaggle.com/datasets/ericdu847/kaggle-t3-gnn-oracle"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/metadata",
+    "title": "metadata",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/datasets/metadata",
+    "url": "https://www.kaggle.com/datasets/ericdu847/metadata"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/microglial-annotated-multiregion-nuclei-data",
+    "title": "Microglial annotated, multiregion nuclei data",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/datasets/microglial-annotated-multiregion-nuclei-data",
+    "url": "https://www.kaggle.com/datasets/ericdu847/microglial-annotated-multiregion-nuclei-data"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/p-life-deepl",
+    "title": "P-Life DeepL",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/datasets/p-life-deepl",
+    "url": "https://www.kaggle.com/datasets/ericdu847/p-life-deepl"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/p13-part2-recheck",
+    "title": "P13 Part2 Recheck",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/datasets/p13-part2-recheck",
+    "url": "https://www.kaggle.com/datasets/ericdu847/p13-part2-recheck"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/patha-part2-recheck-sample-csv",
+    "title": "pathA_part2_recheck_sample.csv",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/datasets/patha-part2-recheck-sample-csv",
+    "url": "https://www.kaggle.com/datasets/ericdu847/patha-part2-recheck-sample-csv"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/pathapart2",
+    "title": "pathApart2",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/datasets/pathapart2",
+    "url": "https://www.kaggle.com/datasets/ericdu847/pathapart2"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/project13-cross-model",
+    "title": "project13-cross-model",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/datasets/project13-cross-model",
+    "url": "https://www.kaggle.com/datasets/ericdu847/project13-cross-model"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/brain-maturation",
+    "title": "Brain Maturation",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/brain-maturation"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/brain-pc-diagnosis",
+    "title": "Brain PC Diagnosis",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/brain-pc-diagnosis"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/brain-selftrain",
+    "title": "Brain Selftrain",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/brain-selftrain"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/deg-analysis",
+    "title": "DEG Analysis",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/deg-analysis"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/deg-analysis-2",
+    "title": "DEG Analysis 2",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/deg-analysis-2"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/kaggle-1m-scbloodnl-move1-poc",
+    "title": "kaggle_1m_scbloodnl_move1_poc",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/kaggle-1m-scbloodnl-move1-poc"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/microns-capabilities",
+    "title": "MICrONS Capabilities",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/microns-capabilities"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/models",
+    "title": "Models",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/models"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook06f9447d91",
+    "title": "notebook06f9447d91",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook06f9447d91"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook12361c64ca",
+    "title": "notebook12361c64ca",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook12361c64ca"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook14d16b38cf",
+    "title": "notebook14d16b38cf",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook14d16b38cf"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook1afe47b5a1",
+    "title": "notebook1afe47b5a1",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook1afe47b5a1"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook1df118eb79",
+    "title": "notebook1df118eb79",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook1df118eb79"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook20625c142b",
+    "title": "notebook20625c142b",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook20625c142b"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook20a516534f",
+    "title": "notebook20a516534f",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook20a516534f"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook2809b8a40c",
+    "title": "notebook2809b8a40c",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook2809b8a40c"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook2e28c1c842",
+    "title": "notebook2e28c1c842",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook2e28c1c842"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook2ff1540d04",
+    "title": "notebook2ff1540d04",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook2ff1540d04"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook3175f1658e",
+    "title": "notebook3175f1658e",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook3175f1658e"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook33454dfc50",
+    "title": "notebook33454dfc50",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook33454dfc50"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook3372164aeb",
+    "title": "notebook3372164aeb",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook3372164aeb"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook344205c1d4",
+    "title": "notebook344205c1d4",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook344205c1d4"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook390c36dcc9",
+    "title": "notebook390c36dcc9",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook390c36dcc9"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook4a6ca1c2a8",
+    "title": "notebook4a6ca1c2a8",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook4a6ca1c2a8"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook59403132c2",
+    "title": "notebook59403132c2",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook59403132c2"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook6ff8c549b2",
+    "title": "notebook6ff8c549b2",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook6ff8c549b2"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook7dd02cd0e2",
+    "title": "notebook7dd02cd0e2",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook7dd02cd0e2"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook7f6a28583e",
+    "title": "notebook7f6a28583e",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook7f6a28583e"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook8083fe6e68",
+    "title": "notebook8083fe6e68",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook8083fe6e68"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook841e8efb5f",
+    "title": "notebook841e8efb5f",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook841e8efb5f"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook918131bd81",
+    "title": "notebook918131bd81",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook918131bd81"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebook9dea04790e",
+    "title": "notebook9dea04790e",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebook9dea04790e"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebooka04b7eaf8c",
+    "title": "notebooka04b7eaf8c",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebooka04b7eaf8c"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebooka39094388c",
+    "title": "notebooka39094388c",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebooka39094388c"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebookbc39b1e14d",
+    "title": "notebookbc39b1e14d",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebookbc39b1e14d"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebookc2fa02ec4c",
+    "title": "notebookc2fa02ec4c",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebookc2fa02ec4c"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebookca49b620a1",
+    "title": "notebookca49b620a1",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebookca49b620a1"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebookdd7c76e2a7",
+    "title": "notebookdd7c76e2a7",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebookdd7c76e2a7"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebooke09515af70",
+    "title": "notebooke09515af70",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebooke09515af70"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebooke58bdcab74",
+    "title": "notebooke58bdcab74",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebooke58bdcab74"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebooke6b5b04452",
+    "title": "notebooke6b5b04452",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebooke6b5b04452"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebookf15860fd26",
+    "title": "notebookf15860fd26",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebookf15860fd26"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebookf2b2869f2d",
+    "title": "notebookf2b2869f2d",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebookf2b2869f2d"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/notebookfa0597fefe",
+    "title": "notebookfa0597fefe",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/notebookfa0597fefe"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/p13-part-2-recheck",
+    "title": "P13 Part 2 Recheck",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/p13-part-2-recheck"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/p13-part-a",
+    "title": "P13 Part A",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/p13-part-a"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/p13-part-a2",
+    "title": "P13 Part A2",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/p13-part-a2"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/parallax",
+    "title": "PARALLAX",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/parallax"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/plife-gemini",
+    "title": "plife Gemini",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/plife-gemini"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/t3notebook31e587a069",
+    "title": "T3notebook31e587a069",
+    "account": "ericdu847",
+    "path": "unsorted/ericdu847/notebooks/t3notebook31e587a069"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/vcc-setnet-corpus",
+    "title": "vcc-setnet-corpus",
+    "account": "ericdu847",
+    "path": "vcc/datasets/vcc-setnet-corpus",
+    "url": "https://www.kaggle.com/datasets/ericdu847/vcc-setnet-corpus"
+  },
+  {
+    "type": "dataset",
+    "ref": "ericdu847/vcc-stage1",
+    "title": "vcc-stage1",
+    "account": "ericdu847",
+    "path": "vcc/datasets/vcc-stage1",
+    "url": "https://www.kaggle.com/datasets/ericdu847/vcc-stage1"
+  },
+  {
+    "type": "dataset",
+    "ref": "eric847/vcc2026-controls",
+    "title": "vcc2026-controls",
+    "account": "eric847",
+    "path": "vcc/datasets/vcc2026-controls",
+    "url": "https://www.kaggle.com/datasets/eric847/vcc2026-controls"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/00-v5-g0-vcc-leg",
+    "title": "00 v5 G0 \u2014 VCC leg",
+    "account": "ericdu847",
+    "path": "vcc/notebooks/00-v5-g0-vcc-leg"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/01-v5-g0-vcc-leg",
+    "title": "01 v5 G0 \u2014 VCC leg",
+    "account": "ericdu847",
+    "path": "vcc/notebooks/01-v5-g0-vcc-leg"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/01-v5-g1-vcc-leg-diagnostics",
+    "title": "01 v5 G1 \u2014 VCC leg diagnostics",
+    "account": "ericdu847",
+    "path": "vcc/notebooks/01-v5-g1-vcc-leg-diagnostics"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/02-v5-g0-vcc-leg",
+    "title": "02 v5 G0 \u2014 VCC leg",
+    "account": "ericdu847",
+    "path": "vcc/notebooks/02-v5-g0-vcc-leg"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/04-v5-g0-vcc-leg-diagnostics",
+    "title": "04 v5 G0 \u2014 VCC leg diagnostics",
+    "account": "ericdu847",
+    "path": "vcc/notebooks/04-v5-g0-vcc-leg-diagnostics"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/05-v5-g0-vcc-leg-diagnostics",
+    "title": "05 v5 G0 \u2014 VCC leg diagnostics",
+    "account": "ericdu847",
+    "path": "vcc/notebooks/05-v5-g0-vcc-leg-diagnostics"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/kimi-vcc",
+    "title": "Kimi VCC",
+    "account": "ericdu847",
+    "path": "vcc/notebooks/kimi-vcc"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/particlelifevcc",
+    "title": "ParticleLifeVCC",
+    "account": "ericdu847",
+    "path": "vcc/notebooks/particlelifevcc"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/state-vcc-test",
+    "title": "STATE VCC Test",
+    "account": "ericdu847",
+    "path": "vcc/notebooks/state-vcc-test"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/vcc-brain",
+    "title": "VCC Brain",
+    "account": "ericdu847",
+    "path": "vcc/notebooks/vcc-brain"
+  },
+  {
+    "type": "notebook",
+    "ref": "eric847/vcc-infer",
+    "title": "vcc-infer",
+    "account": "eric847",
+    "path": "vcc/notebooks/vcc-infer"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/vcc-particlelifedeep",
+    "title": "VCC-ParticleLifeDeep",
+    "account": "ericdu847",
+    "path": "vcc/notebooks/vcc-particlelifedeep"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/vcc-setnet",
+    "title": "vcc-setnet",
+    "account": "ericdu847",
+    "path": "vcc/notebooks/vcc-setnet"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/vcc-stage1-gpu",
+    "title": "vcc-stage1-gpu",
+    "account": "ericdu847",
+    "path": "vcc/notebooks/vcc-stage1-gpu"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/vcc-state-arc",
+    "title": "vcc-state-arc",
+    "account": "ericdu847",
+    "path": "vcc/notebooks/vcc-state-arc"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/vcc-state-train",
+    "title": "vcc-state-train",
+    "account": "ericdu847",
+    "path": "vcc/notebooks/vcc-state-train"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/vcc-state-train-b",
+    "title": "vcc-state-train-b",
+    "account": "ericdu847",
+    "path": "vcc/notebooks/vcc-state-train-b"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/vcc-state-train-c",
+    "title": "vcc-state-train-c",
+    "account": "ericdu847",
+    "path": "vcc/notebooks/vcc-state-train-c"
+  },
+  {
+    "type": "notebook",
+    "ref": "ericdu847/vcc-state-train-d",
+    "title": "vcc-state-train-d",
+    "account": "ericdu847",
+    "path": "vcc/notebooks/vcc-state-train-d"
+  }
+]

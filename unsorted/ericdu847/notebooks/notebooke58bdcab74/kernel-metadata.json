@@ -1,0 +1,19 @@
+{
+  "id": "ericdu847/notebooke58bdcab74",
+  "id_no": 124082533,
+  "title": "notebooke58bdcab74",
+  "code_file": "notebooke58bdcab74.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "None"
+}

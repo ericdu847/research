@@ -1,0 +1,19 @@
+{
+  "id": "ericdu847/gpr151-fixed-v2a",
+  "id_no": 124528584,
+  "title": "GPR151 Fixed V2a",
+  "code_file": "gpr151-fixed-v2a.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:e5452ce6268c2e8345cfe5141f31ca7ff47032aca46a7ea532bbb87481281d0c",
+  "machine_shape": "None"
+}

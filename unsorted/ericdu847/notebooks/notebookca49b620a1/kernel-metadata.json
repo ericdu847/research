@@ -1,0 +1,19 @@
+{
+  "id": "ericdu847/notebookca49b620a1",
+  "id_no": 131314685,
+  "title": "notebookca49b620a1",
+  "code_file": "notebookca49b620a1.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "None"
+}

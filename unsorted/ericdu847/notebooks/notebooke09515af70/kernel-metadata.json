@@ -1,0 +1,19 @@
+{
+  "id": "ericdu847/notebooke09515af70",
+  "id_no": 131196654,
+  "title": "notebooke09515af70",
+  "code_file": "notebooke09515af70.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "None"
+}

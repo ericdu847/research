@@ -1,0 +1,19 @@
+{
+  "id": "ericdu847/notebook2ff1540d04",
+  "id_no": 126866935,
+  "title": "notebook2ff1540d04",
+  "code_file": "notebook2ff1540d04.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "None"
+}
