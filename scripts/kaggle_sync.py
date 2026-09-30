@@ -44,6 +44,14 @@ def route(ref: str, title: str) -> str:
     return f"unsorted/{ref.split('/')[0]}"
 
 
+def full_ref(row: dict[str, str], account: str) -> str:
+    """Normalise a listed ref to owner/slug (CLI versions differ: URL, slug, or owner/slug)."""
+    ref = row["ref"].strip().rstrip("/")
+    if ref.startswith("http"):
+        ref = "/".join(ref.split("/")[-2:])
+    return ref if "/" in ref else f"{account}/{ref}"
+
+
 def account_env(name: str, secret: str, cfg_dir: str) -> dict[str, str]:
     env = {k: v for k, v in os.environ.items()
            if not k.startswith(("KAGGLE_ACCOUNT_", "KAGGLE_API_TOKEN", "KAGGLE_USERNAME", "KAGGLE_KEY"))}
@@ -91,10 +99,12 @@ def sync_account(name: str, secret: str, manifest: list[dict]) -> int:
             print(f"[{name}] listing failed: {e}", file=sys.stderr)
             return 1
         print(f"[{name}] {len(kernels)} notebooks, {len(datasets)} datasets")
+        if kernels:
+            print(f"[{name}] notebook columns: {list(kernels[0])}; first ref: {kernels[0]['ref']!r}")
 
         for k in kernels:
-            ref, title = k["ref"], k.get("title", "")
-            owner, slug = ref.split("/", 1)
+            ref, title = full_ref(k, name), k.get("title", "")
+            slug = ref.split("/", 1)[1]
             dest = ROOT / route(ref, title) / "notebooks" / slug
             tmp = Path(tempfile.mkdtemp())
             try:
@@ -110,7 +120,7 @@ def sync_account(name: str, secret: str, manifest: list[dict]) -> int:
                 shutil.rmtree(tmp, ignore_errors=True)
 
         for d in datasets:
-            ref, title = d["ref"], d.get("title", "")
+            ref, title = full_ref(d, name), d.get("title", "")
             slug = ref.split("/", 1)[1]
             dest = ROOT / route(ref, title) / "datasets" / slug
             dest.mkdir(parents=True, exist_ok=True)
