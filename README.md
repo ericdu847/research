@@ -123,17 +123,19 @@ The hand-written rules stay for now. Phone-call data transfers poorly to typed c
 
 ```
 gpr151/  vcc/  nano/        notebooks/<slug>/ and datasets/<slug>/ per project
-unsorted/<kaggle-user>/     anything the routing rules didn't match
+other/                      notebooks and datasets that don't belong to the three projects
+routing_report.md           where every item went and why (regenerated each sync)
 kaggle_manifest.json        every synced item, with its source account
-scripts/kaggle_sync.py      the sync script; routing regexes in ROUTES
+scripts/kaggle_sync.py      the sync script
+scripts/routes.json         routing rules and per-item overrides
 .github/workflows/          runs the sync daily and on demand
 ```
 
 `.github/workflows/kaggle-sync.yml` pulls every notebook (code plus `kernel-metadata.json`) and every dataset's metadata from each Kaggle account once a day. Dataset files and notebook outputs are not synced. The sync is one-way, Kaggle → GitHub.
 
-**Setup**
-1. On each Kaggle account, go to kaggle.com/settings → API → *Generate New Token* and copy the token. A legacy `kaggle.json` also works: paste its full contents.
-2. On GitHub, go to repo → Settings → Secrets and variables → Actions and add `KAGGLE_ACCOUNT_1`, `KAGGLE_ACCOUNT_2` and `KAGGLE_ACCOUNT_3`.
-3. Go to Actions → *Kaggle sync* → *Run workflow*.
+**Routing.** Each notebook is sorted by its contents: project keywords found in its source (for example `openmm`/`rdkit` → gpr151, `scanpy`/`.h5ad`/`perturbation` → vcc, `e-prop`/`dialogue act`/`perplexity` → nano), plus name patterns on its slug and title. A notebook only goes to a project if the evidence clearly favours it; otherwise it goes to `other/`. Datasets follow the notebooks that attach them. To pin an item somewhere, add `"owner/slug": "folder"` to `overrides` in `scripts/routes.json`; the next sync moves it.
 
-To add or rename a project folder, edit `ROUTES` in `scripts/kaggle_sync.py`.
+**Setup**
+1. On each Kaggle account, go to kaggle.com/settings → API and create a token.
+2. On GitHub, go to repo → Settings → Secrets and variables → Actions and add one secret per account (`ERIC847`, `ERICDU847`, `ERICDU4831`) holding that account's `kaggle.json` contents or bare key.
+3. Go to Actions → *Kaggle sync* → *Run workflow*.
