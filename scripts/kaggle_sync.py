@@ -26,6 +26,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import time
 from collections import Counter
 from pathlib import Path
 
@@ -106,10 +107,14 @@ def account_env(name: str, secret: str, cfg_dir: str) -> dict[str, str]:
 
 
 def kaggle(env: dict[str, str], *args: str) -> str:
-    r = subprocess.run(["kaggle", *args], env=env, capture_output=True, text=True)
-    if r.returncode != 0:
-        raise RuntimeError(f"kaggle {' '.join(args)} failed:\n{r.stdout}\n{r.stderr}")
-    return r.stdout
+    for wait in (10, 30, 90, None):  # back off on Kaggle rate limits (HTTP 429)
+        r = subprocess.run(["kaggle", *args], env=env, capture_output=True, text=True)
+        if r.returncode == 0:
+            return r.stdout
+        if wait is None or "429" not in r.stdout + r.stderr:
+            break
+        time.sleep(wait)
+    raise RuntimeError(f"kaggle {' '.join(args)} failed:\n{r.stdout}\n{r.stderr}")
 
 
 def list_mine(env: dict[str, str], kind: str) -> list[dict[str, str]]:
