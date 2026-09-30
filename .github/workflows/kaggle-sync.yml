@@ -26,9 +26,9 @@ jobs:
 
       - name: Pull from Kaggle
         env:
-          KAGGLE_ACCOUNT_1: ${{ secrets.KAGGLE_ACCOUNT_1 }}
-          KAGGLE_ACCOUNT_2: ${{ secrets.KAGGLE_ACCOUNT_2 }}
-          KAGGLE_ACCOUNT_3: ${{ secrets.KAGGLE_ACCOUNT_3 }}
+          KAGGLE_ACCOUNT_eric847: ${{ secrets.ERIC847 }}
+          KAGGLE_ACCOUNT_ericdu847: ${{ secrets.ERICDU847 }}
+          KAGGLE_ACCOUNT_ericdu4831: ${{ secrets.ERICDU4831 }}
         run: python scripts/kaggle_sync.py
 
       - name: Commit changes
