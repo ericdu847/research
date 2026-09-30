@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Pull notebooks and dataset metadata from several Kaggle accounts into one repo.
 
-Credentials come from environment variables named KAGGLE_ACCOUNT_*. Each one holds
-either a new-style API token (the string from kaggle.com/settings -> API) or the
-full contents of a legacy kaggle.json file.
+Credentials come from environment variables named KAGGLE_ACCOUNT_<username>. Each
+one holds the full contents of a legacy kaggle.json file, a bare 32-character
+legacy key (the username is then taken from the variable name), or a new-style
+API token.
 
 Each account runs in its own `kaggle` CLI subprocess with an isolated config
 dir, because the kaggle package authenticates once, at import time.
@@ -43,7 +44,7 @@ def route(ref: str, title: str) -> str:
     return f"unsorted/{ref.split('/')[0]}"
 
 
-def account_env(secret: str, cfg_dir: str) -> dict[str, str]:
+def account_env(name: str, secret: str, cfg_dir: str) -> dict[str, str]:
     env = {k: v for k, v in os.environ.items()
            if not k.startswith(("KAGGLE_ACCOUNT_", "KAGGLE_API_TOKEN", "KAGGLE_USERNAME", "KAGGLE_KEY"))}
     env["KAGGLE_CONFIG_DIR"] = cfg_dir
@@ -51,6 +52,8 @@ def account_env(secret: str, cfg_dir: str) -> dict[str, str]:
     if secret.startswith("{"):
         creds = json.loads(secret)
         env["KAGGLE_USERNAME"], env["KAGGLE_KEY"] = creds["username"], creds["key"]
+    elif re.fullmatch(r"[0-9a-f]{32}", secret):
+        env["KAGGLE_USERNAME"], env["KAGGLE_KEY"] = name, secret
     else:
         env["KAGGLE_API_TOKEN"] = secret
     return env
@@ -80,7 +83,7 @@ def list_mine(env: dict[str, str], kind: str) -> list[dict[str, str]]:
 def sync_account(name: str, secret: str, manifest: list[dict]) -> int:
     failures = 0
     with tempfile.TemporaryDirectory() as cfg:
-        env = account_env(secret, cfg)
+        env = account_env(name, secret, cfg)
         try:
             kernels = list_mine(env, "kernels")
             datasets = list_mine(env, "datasets")
