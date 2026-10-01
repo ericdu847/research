@@ -436,6 +436,14 @@
     "url": "https://www.kaggle.com/datasets/ericdu4831/microns-multiverse-data"
   },
   {
+    "type": "dataset",
+    "ref": "ericdu847/onecortex-checkpoint",
+    "title": "onecortex checkpoint",
+    "account": "ericdu847",
+    "path": "other/datasets/onecortex-checkpoint",
+    "url": "https://www.kaggle.com/datasets/ericdu847/onecortex-checkpoint"
+  },
+  {
     "type": "notebook",
     "ref": "ericdu847/deg-analysis-2",
     "title": "DEG Analysis 2",
